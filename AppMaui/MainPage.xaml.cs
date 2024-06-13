@@ -2,13 +2,12 @@
 
 namespace AppMaui
 {
-    public partial class MainPage : ContentPage
-    {
-        public MainPage(MainPageViewModel mainPageViewModel)
-        {
-            InitializeComponent();
-            this.BindingContext = mainPageViewModel;
-        }
-    }
-
+	public partial class MainPage : ContentPage
+	{
+		public MainPage(MainPageViewModel mainPageViewModel)
+		{
+			InitializeComponent();
+			this.BindingContext = mainPageViewModel;
+		}
+	}
 }

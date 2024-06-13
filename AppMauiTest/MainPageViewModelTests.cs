@@ -1,22 +1,25 @@
-﻿using AppMaui.Service;
+﻿using AppMaui.Service.Contracts;
 using AppMaui.ViewModels;
 using Moq;
 
-public class MainPageViewModelTests
+namespace AppMauiTest
 {
-    [Fact]
-    public void DeviceModel_ShouldReturnCorrectValue()
-    {
-        // Arrange
-        var mockDeviceService = new Mock<IDeviceService>();
-        mockDeviceService.Setup(service => service.GetDeviceModel()).Returns("Test Device");
+	public class MainPageViewModelTests
+	{
+		[Fact]
+		public void DeviceModel_ShouldReturnCorrectValue()
+		{
+			// Arrange
+			var mockDeviceService = new Mock<IDeviceService>();
+			mockDeviceService.Setup(service => service.GetDeviceModel()).Returns("Test Device");
 
-        var viewModel = new MainPageViewModel(mockDeviceService.Object);
+			var viewModel = new MainPageViewModel(mockDeviceService.Object);
 
-        // Act
-        var result = viewModel.DeviceModel;
+			// Act
+			var result = viewModel.DeviceModel;
 
-        // Assert
-        Assert.Equal("Test Device", result);
-    }
+			// Assert
+			Assert.Equal("Test Device", result);
+		}
+	}
 }
