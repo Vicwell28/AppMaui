@@ -5,7 +5,17 @@ VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppMaui", "AppMaui\AppMaui.csproj", "{FDEDE9D0-54D7-4523-A654-9A8D72E960A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMauiTest", "AppMauiTest\AppMauiTest.csproj", "{87D32DA6-CF88-4CEA-AF9C-25C34ED2F0B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppMauiTest", "AppMauiTest\AppMauiTest.csproj", "{87D32DA6-CF88-4CEA-AF9C-25C34ED2F0B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITests.Shared", "AppMauiUITest\UITests.Shared\UITests.Shared.csproj", "{6B4800DC-2875-4612-8C2D-31DB97454128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITests.Android", "AppMauiUITest\UITests.Android\UITests.Android.csproj", "{41A7E6DB-D87D-476C-BDDA-29434D8CF4D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITests.iOS", "AppMauiUITest\UITests.iOS\UITests.iOS.csproj", "{61539B5A-6E35-45DF-B701-2070A6E0FD67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITests.macOS", "AppMauiUITest\UITests.macOS\UITests.macOS.csproj", "{49055FC8-ADA1-4965-82EF-00B107F62635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITests.Windows", "AppMauiUITest\UITests.Windows\UITests.Windows.csproj", "{B739E809-701B-4260-975F-0A76D0A3D8A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +33,26 @@ Global
 		{87D32DA6-CF88-4CEA-AF9C-25C34ED2F0B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87D32DA6-CF88-4CEA-AF9C-25C34ED2F0B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87D32DA6-CF88-4CEA-AF9C-25C34ED2F0B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B4800DC-2875-4612-8C2D-31DB97454128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4800DC-2875-4612-8C2D-31DB97454128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4800DC-2875-4612-8C2D-31DB97454128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4800DC-2875-4612-8C2D-31DB97454128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A7E6DB-D87D-476C-BDDA-29434D8CF4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A7E6DB-D87D-476C-BDDA-29434D8CF4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A7E6DB-D87D-476C-BDDA-29434D8CF4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A7E6DB-D87D-476C-BDDA-29434D8CF4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61539B5A-6E35-45DF-B701-2070A6E0FD67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61539B5A-6E35-45DF-B701-2070A6E0FD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61539B5A-6E35-45DF-B701-2070A6E0FD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61539B5A-6E35-45DF-B701-2070A6E0FD67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49055FC8-ADA1-4965-82EF-00B107F62635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49055FC8-ADA1-4965-82EF-00B107F62635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49055FC8-ADA1-4965-82EF-00B107F62635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49055FC8-ADA1-4965-82EF-00B107F62635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B739E809-701B-4260-975F-0A76D0A3D8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B739E809-701B-4260-975F-0A76D0A3D8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B739E809-701B-4260-975F-0A76D0A3D8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B739E809-701B-4260-975F-0A76D0A3D8A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,14 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
-    x:Class="AppMaui.MainPage"
+    x:Class="AppMaui.Page.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:AppMaui.MarkupExtensions">
 
     <ScrollView>
         <StackLayout>
             <Label
                 HorizontalOptions="CenterAndExpand"
                 Text="{Binding DeviceModel}"
+                VerticalOptions="CenterAndExpand" />
+
+            <Label
+                HorizontalOptions="CenterAndExpand"
+                Text="{local:Translate Key=AcceptCoolersWarning}"
                 VerticalOptions="CenterAndExpand" />
         </StackLayout>
 

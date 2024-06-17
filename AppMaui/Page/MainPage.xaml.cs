@@ -1,6 +1,6 @@
 ﻿using AppMaui.ViewModels;
 
-namespace AppMaui
+namespace AppMaui.Page
 {
 	public partial class MainPage : ContentPage
 	{
